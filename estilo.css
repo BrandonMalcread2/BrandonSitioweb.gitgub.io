@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+.menu{
+    list-style: none;
+    background: #140b5c;
+    margin:auto;
+    width: 90%;
+    padding: 0;
+}
+.menu li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: blueviolets;
+}
+.banner {
+    width: 700px;
+    height: 300px;
+    border: 3px solid blue;
+    margin:auto;
+    background-size: 100% 100%;
+   animation: banner 8s infinite;
+   
+    
+}
+@keyframes banner {
+    0%, 30% {
+        background-image: url(img/consultorio.jpg);
+    }
+    35%, 65% {
+        background-image: url(img/consultorio4.jpg);
+    }
+    70%, 100%{
+        background-image: url(img/consultorio2);
+    }
+}
+.pie{
+    background: #140b5c;
+}
+img{
+    width: 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+span{
+    font-size: 23px;
+}
+.fb{
+    background: rgb(0, 81, 255);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.tw{
+    background: rgb(0, 140, 255);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.in{
+    background: rgb(255, 0, 179);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.logotipo{
+    font-size: 18px;
+    color: white;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color: white;
+    padding: 10px 0;
+}
+p{
+    color: rgba(255, 255, 255, 0.527);
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+
